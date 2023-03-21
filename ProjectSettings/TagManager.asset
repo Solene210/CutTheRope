@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rope
   - GameOver
+  - Candy
   layers:
   - Default
   - TransparentFX

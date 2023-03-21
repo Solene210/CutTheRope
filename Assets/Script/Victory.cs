@@ -6,7 +6,8 @@ using UnityEngine;
 public class Victory : MonoBehaviour
 {
     #region Expose
-    
+    [SerializeField] private GameObject _vicotryUI;
+    [SerializeField] private GameObject _gameOverUI;
     #endregion
 
     #region Unity Life Cycle
@@ -15,12 +16,12 @@ public class Victory : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
-            Debug.Log("Victoire");
+            _vicotryUI.SetActive(true);
         }
         else if (collision.gameObject.CompareTag("GameOver"))
         {
             Destroy(gameObject);
-            Debug.Log("Defaite");
+            _gameOverUI.SetActive(true);
         }
     }
     #endregion

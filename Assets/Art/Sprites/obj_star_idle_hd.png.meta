@@ -3,7 +3,7 @@ guid: 76c00b716dd44ea49b237f1563ddc2f4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,16 +33,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -55,14 +56,65 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -75,7 +127,1246 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: obj_star_idle_hd_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1904
+        width: 150
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bf39f446605d847a141152cb7dd0e3
+      internalID: 381615802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1997
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03c054fa25017546ae924db542782da
+      internalID: -767706605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1997
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92283c565213376469a43fe11364b022
+      internalID: -882618849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1997
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cffe26ddbc7975479dfefd8202bdc7a
+      internalID: -807165950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1996
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0248642fb8416e4dbe809bf00884f16
+      internalID: -385237070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1996
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cc1c65446a46e4b93c5568eb6f1570
+      internalID: 1167588543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1996
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f0e8fa9f354464885629ac3a11d7f7
+      internalID: 16411086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_7
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1996
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb1674ebc46ae341af573f4426959d5
+      internalID: -345740536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1996
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfe6526148a9db4f8ea28ad0717b1a3
+      internalID: 1937377934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1996
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c1acfd1039aa6488fb17598a93634d
+      internalID: 1653163639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1944
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d896fa89037a444ac4b984ac341e6f
+      internalID: 754349854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1944
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430d076f6997b6943babba6cf8a90b3c
+      internalID: -516687126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1944
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e85f7134b273a4e9fcef2197a16124
+      internalID: 955160425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1942
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eeaf469e506524cbf8af40f032bd87
+      internalID: 1878339113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_14
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1942
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d093f7c73c9ef478591963d6aa1424
+      internalID: -1929708881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1942
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5ff5579db890f4f855bd8ff079c775
+      internalID: -469572835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_16
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1942
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e81238cd11fa4747beb68bafd699160
+      internalID: 566226949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1850
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4569ca473d4b6164288423142335b80e
+      internalID: 1010149159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1850
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82972b61781cff46aac1b84d40830fb
+      internalID: 1260738032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1734
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a052a1a81079d1e4eb426f78300f71bc
+      internalID: -719628474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1734
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81af82c265662bd45bd0323112ca6a30
+      internalID: -1027148698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1734
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1506daabd1f05bf4fab465fa3528d989
+      internalID: 1801962928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_22
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1734
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3306b9f90469d841b35fdd056ec6138
+      internalID: 536913231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1618
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2a0f0415be4bf46b777cbf8eee3bfd
+      internalID: 1727048795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_24
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1618
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b128f9c04d48b340aae61c7c697656b
+      internalID: -617256049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_25
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1618
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56dba8421462d4a9425fc0b8e8f2a6
+      internalID: 984892359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1618
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c945b68b2d07834b9a25b0b00370f71
+      internalID: 466020473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1502
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebcc0f3e46ee6a4bb7a71039460e4f5
+      internalID: -103665193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_28
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1502
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e41e28550c021644bd99b3366e700ed
+      internalID: 46787974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_29
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1502
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd3beef6dbba694ab4787823d0a1926
+      internalID: -1914148467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1502
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4ab2e893d731c4d8ceb147e4d8408a
+      internalID: -113697022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1386
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8551c0ce1983f489bc0ab7b185c678
+      internalID: -547816553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_32
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1386
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af20f0a3062ae684da7e757ed6cdd206
+      internalID: 125682102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1386
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95089cd7ec5a86449b4ca451745a2103
+      internalID: 373431993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_34
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1386
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670940aa9a994684794ddeebd05e2f81
+      internalID: -839758783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1270
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec466b645b158046bbf19d07f14bc24
+      internalID: -1161506380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1270
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01700a514d6808d4b875b4fce7adb9d5
+      internalID: 520426061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_37
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1270
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e223a7ac4a541e94f80fdb199477c683
+      internalID: -1883031608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_38
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1270
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f8790eadbff0409e82e485671e8e5
+      internalID: 1212104489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1154
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243cd6ee231898041bc703166f5fe09c
+      internalID: -1691223341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_40
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1154
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da37d0063f52cb740b8bdccf455ee42f
+      internalID: -1527926898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_41
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1154
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2380092065eb684d9dc48ae7b40bd5e
+      internalID: 705701061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_42
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1154
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d88a8b8ac17a0246ab975da7c0755b1
+      internalID: 513802184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1038
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bf1581ea1c6d249b73d9b3db1be198
+      internalID: -2077322901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_44
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1038
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5fb08463f61424bbadcb8414bf69bd
+      internalID: -1927159076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_45
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1038
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea7105cb4154e44aa37aa94727085b4
+      internalID: -612368575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_46
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1038
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6c767165c20d04f9c671ac2bc2a057
+      internalID: 262014759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 922
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b0ff542c5ab4849919d39fb50c7fe5
+      internalID: 2123877542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_48
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 922
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00096067784c3c1498cca9405b90d540
+      internalID: -582909153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_49
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 922
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052550df6bdc12d4d8d4c9d3f495e9c6
+      internalID: -1737023416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_50
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 922
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9814567faed1f4387d35cf1e456ca3
+      internalID: -85848535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 806
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a4d5441a5529c4d84858cef7d550d1
+      internalID: 1950682298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_52
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 806
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fcab2f5324deb4f87d888f91ec243e
+      internalID: 1142592565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 806
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56d83faf34adc642b8b153a9354203c
+      internalID: -696880429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_54
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 806
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf5da6852933114892bc6638f1bbb3d
+      internalID: -986429926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 690
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d403edffe58979a4289371bed3899158
+      internalID: 1986194568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 538
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac2522492100eb4eafaa994f4cf6950
+      internalID: 1954518645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_57
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 538
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf3f352c9157bc4bbc9c64301f4b6a2
+      internalID: -949976121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_star_idle_hd_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 286
+        width: 248
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d451b35f3f0854e4caa498d3737c1488
+      internalID: -1970640815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -86,6 +1377,66 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      obj_star_idle_hd_15: -469572835
+      obj_star_idle_hd_14: -1929708881
+      obj_star_idle_hd_10: 754349854
+      obj_star_idle_hd_8: 1937377934
+      obj_star_idle_hd_20: -1027148698
+      obj_star_idle_hd_11: -516687126
+      obj_star_idle_hd_18: 1260738032
+      obj_star_idle_hd_44: -1927159076
+      obj_star_idle_hd_16: 566226949
+      obj_star_idle_hd_28: 46787974
+      obj_star_idle_hd_2: -882618849
+      obj_star_idle_hd_26: 466020473
+      obj_star_idle_hd_39: -1691223341
+      obj_star_idle_hd_50: -85848535
+      obj_star_idle_hd_32: 125682102
+      obj_star_idle_hd_6: 16411086
+      obj_star_idle_hd_53: -696880429
+      obj_star_idle_hd_48: -582909153
+      obj_star_idle_hd_46: 262014759
+      obj_star_idle_hd_47: 2123877542
+      obj_star_idle_hd_5: 1167588543
+      obj_star_idle_hd_3: -807165950
+      obj_star_idle_hd_13: 1878339113
+      obj_star_idle_hd_21: 1801962928
+      obj_star_idle_hd_17: 1010149159
+      obj_star_idle_hd_25: 984892359
+      obj_star_idle_hd_23: 1727048795
+      obj_star_idle_hd_12: 955160425
+      obj_star_idle_hd_40: -1527926898
+      obj_star_idle_hd_27: -103665193
+      obj_star_idle_hd_30: -113697022
+      obj_star_idle_hd_56: 1954518645
+      obj_star_idle_hd_4: -385237070
+      obj_star_idle_hd_22: 536913231
+      obj_star_idle_hd_0: 381615802
+      obj_star_idle_hd_49: -1737023416
+      obj_star_idle_hd_7: -345740536
+      obj_star_idle_hd_36: 520426061
+      obj_star_idle_hd_52: 1142592565
+      obj_star_idle_hd_55: 1986194568
+      obj_star_idle_hd_54: -986429926
+      obj_star_idle_hd_38: 1212104489
+      obj_star_idle_hd_43: -2077322901
+      obj_star_idle_hd_19: -719628474
+      obj_star_idle_hd_29: -1914148467
+      obj_star_idle_hd_9: 1653163639
+      obj_star_idle_hd_41: 705701061
+      obj_star_idle_hd_58: -1970640815
+      obj_star_idle_hd_1: -767706605
+      obj_star_idle_hd_51: 1950682298
+      obj_star_idle_hd_42: 513802184
+      obj_star_idle_hd_31: -547816553
+      obj_star_idle_hd_33: 373431993
+      obj_star_idle_hd_37: -1883031608
+      obj_star_idle_hd_45: -612368575
+      obj_star_idle_hd_35: -1161506380
+      obj_star_idle_hd_57: -949976121
+      obj_star_idle_hd_24: -617256049
+      obj_star_idle_hd_34: -839758783
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
