@@ -127,7 +127,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: obj_bubble_attached_hd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 98
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f44d27b031b8a4ba73869ee0621583
+      internalID: 652917169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_attached_hd_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 116
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacccac9be767e540ab70a27a2c5da34
+      internalID: 1088245870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_attached_hd_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 117
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122e7ad5a78a10b4a93452106f105c43
+      internalID: 1847780043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_attached_hd_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 116
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab76ff93d5df3e4091b3037da17d187
+      internalID: -805380392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +222,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_bubble_attached_hd_2: 1847780043
+      obj_bubble_attached_hd_1: 1088245870
+      obj_bubble_attached_hd_0: 652917169
+      obj_bubble_attached_hd_3: -805380392
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

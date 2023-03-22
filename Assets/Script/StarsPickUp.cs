@@ -5,7 +5,7 @@ using UnityEngine;
 public class StarsPickUp : MonoBehaviour
 {
     #region Expose
-    
+    [SerializeField] private StarCount _starCount;
     #endregion
 
     #region Unity Life Cycle
@@ -13,7 +13,9 @@ public class StarsPickUp : MonoBehaviour
     {
         if (collision.CompareTag("Candy"))
         {
-            Destroy(gameObject);
+            _starCount._stars--;
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
     #endregion

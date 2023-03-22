@@ -127,7 +127,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: obj_bee_hd_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 180
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9619fafe4783f843b150edbdc24b7aa
+      internalID: -1806425838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bee_hd_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 216
+        width: 55
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a6c626e42ecf448b96dd8de4819dab
+      internalID: 311164700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bee_hd_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 153
+        width: 113
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77a2a6ac5b3f8e4a8f5b6954b456f33
+      internalID: -1435145093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bee_hd_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 101
+        width: 119
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5e6982c97cce447bbe84d79f00cda6
+      internalID: 1133352888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +222,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_bee_hd_4: 545000890
+      obj_bee_hd_1: 311164700
+      obj_bee_hd_2: -1720422699
+      obj_bee_hd_5: 1133352888
+      obj_bee_hd_3: -1435145093
+      obj_bee_hd_6: -1159144560
+      obj_bee_hd_0: -1806425838
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -127,7 +127,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: obj_bouncer_02_hd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 198
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2ddf56e8bf664fa555030d08ea9ce
+      internalID: -1949617231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bouncer_02_hd_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 210
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1177d8817e78489c4d967908af52c
+      internalID: 810926864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bouncer_02_hd_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 213
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a17d1b475944e6459a568309fa66afe
+      internalID: 889131650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bouncer_02_hd_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 193
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e3b31f445b763478dd966ae4d2e645
+      internalID: 1781216460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bouncer_02_hd_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 196
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a838cddd89400439e29e8dd5621589
+      internalID: 1493277074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +243,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_bouncer_02_hd_0: -1949617231
+      obj_bouncer_02_hd_1: 810926864
+      obj_bouncer_02_hd_3: 1781216460
+      obj_bouncer_02_hd_4: 1493277074
+      obj_bouncer_02_hd_2: 889131650
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

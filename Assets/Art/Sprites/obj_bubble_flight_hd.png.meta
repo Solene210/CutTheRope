@@ -127,7 +127,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1939
+        width: 108
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2493faa44071eba4487545e4206bf176
+      internalID: 853212760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1832
+        width: 108
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9086ebe6b47ec4d82dfdd6c23cbf8a
+      internalID: -1183729337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 108
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63db08bf644a8f44e9866cad8615a768
+      internalID: -1642227674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 108
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa4cde12c51d674295cd0636d3ce5c1
+      internalID: -1142264496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1531
+        width: 108
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed37282a0b01bef49a3202c9e2c1ff03
+      internalID: 894392389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1439
+        width: 108
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bb30885cdd56a4fa2ffd4ac357041c
+      internalID: 924351159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1349
+        width: 108
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa47582133c204fbfe4fbfe0d26e78
+      internalID: -770170199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 108
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51e095fbdba4b2448c3a5044095873c
+      internalID: 340711389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1169
+        width: 108
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bf773c3d3a0c045811ba129508007e
+      internalID: -1177481454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1075
+        width: 108
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577955472ee970c40b93a95ccce2081d
+      internalID: 57684183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 108
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6425e11c17785d43958f28f085a480f
+      internalID: -128399657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 872
+        width: 108
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaa6ef6595e4f249b80445cc8a34539
+      internalID: 1790119838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 108
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0363cc2fad8f2b44bb6788610fc8be0d
+      internalID: -472613067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_bubble_flight_hd_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 655
+        width: 108
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262d17cda7bee3244a6c521230108a79
+      internalID: -1477833513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +432,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_bubble_flight_hd_2: -1642227674
+      obj_bubble_flight_hd_3: -1142264496
+      obj_bubble_flight_hd_8: -1177481454
+      obj_bubble_flight_hd_11: 1790119838
+      obj_bubble_flight_hd_10: -128399657
+      obj_bubble_flight_hd_7: 340711389
+      obj_bubble_flight_hd_13: -1477833513
+      obj_bubble_flight_hd_6: -770170199
+      obj_bubble_flight_hd_1: -1183729337
+      obj_bubble_flight_hd_5: 924351159
+      obj_bubble_flight_hd_4: 894392389
+      obj_bubble_flight_hd_9: 57684183
+      obj_bubble_flight_hd_12: -472613067
+      obj_bubble_flight_hd_0: 853212760
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

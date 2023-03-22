@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Victory : MonoBehaviour
 {
     #region Expose
     [SerializeField] private GameObject _vicotryUI;
-    [SerializeField] private GameObject _gameOverUI;
     #endregion
 
     #region Unity Life Cycle
@@ -21,7 +21,7 @@ public class Victory : MonoBehaviour
         else if (collision.gameObject.CompareTag("GameOver"))
         {
             Destroy(gameObject);
-            _gameOverUI.SetActive(true);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
     #endregion
