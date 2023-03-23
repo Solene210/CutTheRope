@@ -5,27 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    #region Expose
-    
-    #endregion
-
-    #region Unity Life Cycle
-    private void Awake()
-    {
-        
-    }
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-    #endregion
-
     #region methods
     public void StartGame()
     {
@@ -37,9 +16,5 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    #endregion
-
-    #region Private & Protected
-    
     #endregion
 }

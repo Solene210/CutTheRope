@@ -25,12 +25,4 @@ public class Victory : MonoBehaviour
         }
     }
     #endregion
-
-    #region methods
-
-    #endregion
-
-    #region Private & Protected
-
-    #endregion
 }

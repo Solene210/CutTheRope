@@ -181,7 +181,7 @@ namespace TMPro
 
 
                 #region Example of Link Handling
-                // Check if mouse intersects with any links.
+                // Check if mouse intersects with any _links.
                 int linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, Input.mousePosition, m_Camera);
 
                 // Handle new Link selection.

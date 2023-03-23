@@ -5,10 +5,7 @@ using UnityEngine;
 public class Weight : MonoBehaviour
 {
     #region Expose
-    public float distancefromchainend = 0.6f;
-    #endregion
-
-    #region Unity Life Cycle
+    [SerializeField] private float _distancefromchainend = 0.6f;
     #endregion
 
     #region methods
@@ -18,11 +15,7 @@ public class Weight : MonoBehaviour
         joint.autoConfigureConnectedAnchor = false;
         joint.connectedBody = endRB;
         joint.anchor = Vector2.zero;
-        joint.connectedAnchor = new Vector2(0, -distancefromchainend);
+        joint.connectedAnchor = new Vector2(0, -_distancefromchainend);
     }
-    #endregion
-
-    #region Private & Protected
-
     #endregion
 }

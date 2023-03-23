@@ -362,7 +362,7 @@ namespace TMPro.Examples
 
 
         /// <summary>
-        /// Draw rectangle around each of the links contained in the text.
+        /// Draw rectangle around each of the _links contained in the text.
         /// </summary>
         /// <param name="text"></param>
         void DrawLinkBounds()

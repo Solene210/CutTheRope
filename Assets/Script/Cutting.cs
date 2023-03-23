@@ -5,10 +5,6 @@ using UnityEngine;
 
 public class Cutting : MonoBehaviour
 {
-    #region Expose
-
-    #endregion
-
     #region Unity Life Cycle
     void Update()
     {
@@ -24,13 +20,5 @@ public class Cutting : MonoBehaviour
             }
         }
     }
-    #endregion
-
-    #region methods
-
-    #endregion
-
-    #region Private & Protected
-
     #endregion
 }

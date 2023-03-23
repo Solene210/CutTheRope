@@ -24,12 +24,4 @@ public class MonsterAnimation : MonoBehaviour
         }
     }
     #endregion
-
-    #region methods
-
-    #endregion
-
-    #region Private & Protected
-
-    #endregion
 }

@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private IntVariable _nbStar;
+
+    private void Start()
+    {
+        _nbStar._value = 0;
+    }
     public void Play()
     {
         Time.timeScale = 1;
@@ -19,6 +25,7 @@ public class GameManager : MonoBehaviour
     }
     public void Menu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
     public void NextLevel()

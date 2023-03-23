@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class StarCount : MonoBehaviour
 {
     #region Expose
-    public int _stars = 3;
+    public int _stars = 0;
     [SerializeField] private Image[] _starsImage;
     [SerializeField] private Sprite _emptyStar;
     [SerializeField] private Sprite _fullStar;
@@ -24,13 +24,5 @@ public class StarCount : MonoBehaviour
             _starsImage[i].sprite = _emptyStar;
         }
     }
-    #endregion
-
-    #region methods
-
-    #endregion
-
-    #region Private & Protected
-    
     #endregion
 }
